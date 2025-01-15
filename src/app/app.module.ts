@@ -21,7 +21,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [
     { provide: LocationStrategy, useClass: HashLocationStrategy }  // Provide HashLocationStrategy
